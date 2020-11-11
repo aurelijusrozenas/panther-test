@@ -17,7 +17,7 @@
     },
     "require-dev": {
         "phpunit/phpunit": "^9.4",
-        "symfony/panther": "0.7.0"
+        "symfony/panther": "0.6.*"
     },
     "config": {
         "preferred-install": {
