@@ -14,7 +14,7 @@ class DefaultTest extends WebTestCase
 
     public function test(): void
     {
-        $client = static::createPantherClient();
+        $client = self::createPantherClient();
         $client->request(Request::METHOD_GET, '/');
         $this->addToAssertionCount(1);
     }
